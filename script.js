@@ -1,6 +1,6 @@
 // Personalizza qui i ricordi, i nomi e la dedica finale.
 const CONFIG = {
-  initials: ["T", "I"], // sostituisci con le vostre iniziali
+  initials: ["S", "E"], // sostituisci con le vostre iniziali
   signature: "il tuo amore",
   memories: {
     first: {n:"FRAMMENTO 01", title:"Il primo incontro", text:"Non sapevo ancora che quel giorno sarebbe diventato uno dei miei preferiti. Qui racconta come è iniziato tutto, con i dettagli che solo voi conoscete.", symbol:"✧"},
