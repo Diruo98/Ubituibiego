@@ -182,7 +182,7 @@
           <button class="memory-star" data-memory="0"><span class="star-icon">✦</span><span class="star-label">L'inizio</span></button>
           <button class="memory-star" data-memory="1"><span class="star-icon">✧</span><span class="star-label">Il tuo sorriso</span></button>
           <button class="memory-star" data-memory="2"><span class="star-icon">✦</span><span class="star-label">Il nostro posto</span></button>
-          <button class="memory-star" data-memory="3"><span class="star-icon">✧</span><span class="star-label">Una piccola follia</span></button>
+          <button class="memory-star" data-memory="3"><span class="star-icon">✧</span><span class="star-label">I tuoi occhi</span></button>
           <button class="memory-star" data-memory="4"><span class="star-icon">✦</span><span class="star-label">Il mio ricordo preferito</span></button>
           <button class="memory-star" data-memory="5"><span class="star-icon">✧</span><span class="star-label">Quello che verrà</span></button>
         </div>
@@ -293,7 +293,7 @@
       { title: "L'inizio della nostra storia", text: "Era l'8 Agosto del 2024, da quel messaggio di auguri di compleanno è nata prima un'amicizia meravigliosa, che si è trasformato in un amore puro" },
       { title: "Il tuo sorriso", text: "Quando prima di addormentarti mi guardi e sorridi, quell'attimo mi rende maledettamente felice, come un bambino" },
       { title: "Il mio posto", text: "Il mio posto preferito è tra le tue braccia, ma posso dire che ormai il nostro posto è diventato All'Antico Vinaio (e ogni posto dove mangiamo ahahah)" },
-      { title: "Una piccola follia", text: "Inserisci qui una vostra avventura buffa, un imprevisto o una cosa che solo voi due potreste capire." },
+      { title: "I tuoi occhi", text: "Ogni volta che li guardo, mi innamoro ancora e ancora, come se fosse la prima volta" },
       { title: "Il mio ricordo preferito", text: "Sono moltissimi, ma il mio ricordo preferito è il primo bacio sotto la stazione della metro, un momento davvero magico" },
       { title: "Quello che verrà", text: "Abbiamo ancora tantissime cose da vivere insieme, conservo questa stella per il futuro" }
     ];
@@ -405,7 +405,7 @@
       document.getElementById("progressPercent").textContent=percent+"%";
       document.getElementById("progressCaption").textContent =
         percent>=100 ? "Un altro anno di ricordi da festeggiare. Buon anniversario! 🤍" :
-        `Mancano ${Math.ceil((nextAnniversary-today)/DAY_MS)} giorni al primo anniversario. Un giorno alla volta. 🤍`;
+        `Mancano ${Math.ceil((nextAnniversary-today)/DAY_MS)} giorni al primo anniversario 🤍`;
       const row=document.getElementById("heartRow");
       if(!row.childElementCount){
         for(let i=0;i<20;i++){
