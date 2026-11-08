@@ -405,7 +405,7 @@
       document.getElementById("progressPercent").textContent=percent+"%";
       document.getElementById("progressCaption").textContent =
         percent>=100 ? "Un altro anno di ricordi da festeggiare. Buon anniversario! 🤍" :
-        `Mancano ${Math.ceil((nextAnniversary-today)/DAY_MS)} giorni al prossimo anniversario. Un giorno alla volta. 🤍`;
+        `Mancano ${Math.ceil((nextAnniversary-today)/DAY_MS)} giorni al primo anniversario. Un giorno alla volta. 🤍`;
       const row=document.getElementById("heartRow");
       if(!row.childElementCount){
         for(let i=0;i<20;i++){
